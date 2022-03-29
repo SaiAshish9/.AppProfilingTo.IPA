@@ -18,6 +18,7 @@ ideviceinstaller -l
 ./go-ios --udid=00008101-000164922669001E launch com.browserstack.Sample-iOS
 ./go-ios --udid=00008101-000164922669001E launch com.bsstack.SampleXCUITests.xctrunner
 
-./go-ios runwda --bundleid com.bsstack.SampleXCUITests.xctrunner --testrunnerbundleid com.bsstack.SampleXCUITests.xctrunner
---xctestconfig SampleXCUITests.xctest --udid 00008101-000164922669001E
+./go-ios runwda --bundleid com.bsstack.SampleXCUITests.xctrunner --testrunnerbundleid 
+com.bsstack.SampleXCUITests.xctrunner --xctestconfig SampleXCUITests.xctest --udid 
+00008101-000164922669001E
 ```
