@@ -5,7 +5,8 @@ ios-deploy --justlaunch  --debug --bundle XCUIAutomationScriptsUITests-Runner.ap
 
 
 ```
-1. Go to xcode => prefernces => Location => derived data path => <app_name>-<random_characters> => Build
+1. Go to xcode => prefernces => Location => derived data path
+=> <app_name>-<random_characters> => Build
 => Products => Debug-iphoneos => -Runner.app
 2. Create a new payload directory and place the Runner.app file inside that
 3. Rename that as .ipa and select use .ipa option
